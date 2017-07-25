@@ -76,4 +76,8 @@ en:
       content: "Contact the Ruby on Rails Tutorial about the sample app at the"
       page: "contact page"
   users:
-    new: "Users#new"
+    new:
+      signup: "Sign up"
+      flash: "Welcome to the Sample App!"
+      user_nil: "Can not find user"
+      create: "Create my account"
