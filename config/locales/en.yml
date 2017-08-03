@@ -39,6 +39,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      users: "Users"
     footer:
       the: "The"
       by: "By"
@@ -79,3 +84,7 @@ en:
     new:
       signup: "Sign up"
       flash: "Welcome to the Sample App!"
+      create: "Create my account"
+  sessions:
+    login: "Log in"
+    invalid: "Invalid email/password combination"
