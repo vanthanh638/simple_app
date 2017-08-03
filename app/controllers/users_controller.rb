@@ -4,10 +4,10 @@ class UsersController < ApplicationController
     # find user
     @user = User.find_by id: params[:id]
     if @user.nil?
-      flash[:danger] = I18n.t("users.new.user_nil")
+      flash[:danger] = t("users.new.user_nil")
       redirect_to signup_path
     else
-      flash.now[:success] = I18n.t("users.new.flash")
+      flash.now[:success] = t("users.new.flash")
     end
   end
 
@@ -16,9 +16,10 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
-      flash.now[:success] = I18n.t("users.new.flash")
+      log_in @user
+      flash[:success] = t("users.new.flash")
       redirect_to @user
     else
       render :new
