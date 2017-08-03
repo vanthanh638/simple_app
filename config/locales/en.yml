@@ -85,12 +85,38 @@ en:
     new:
       signup: "Sign up"
       flash: "Welcome to the Sample App!"
+      info: "Please check your email to activate your account."
       create: "Create my account"
       sigup_now: "Sign up now!"
       user_new: "New user?"
       user_nil: "Can not find user"
+    edit:
+      edit: "Edit user"
+      title: "Update your profile"
+      submit: "Save changes"
+      change: "change"
+      update: "Profile updated"
+      login: "Please log in."
+    index:
+      index: "All users"
+      delete: "delete"
+      delete_success: "User deleted"
+      confirm: "You sure?"
   sessions:
     login: "Log in"
     invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
+    activate: "Account not activated. "
+    check_email: "Check your email for the activation link."
   err:
     the: "The form contains"
+  account:
+    activate: "Account activated!"
+    invalid: "Invalid activation link"
+  user_mailer:
+    account:
+      title: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    password:
+      title: "User#password_reset"
