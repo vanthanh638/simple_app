@@ -89,8 +89,21 @@ en:
       sigup_now: "Sign up now!"
       user_new: "New user?"
       user_nil: "Can not find user"
+    edit:
+      edit: "Edit user"
+      title: "Update your profile"
+      submit: "Save changes"
+      change: "change"
+      update: "Profile updated"
+      login: "Please log in."
+    index:
+      index: "All users"
+      delete: "delete"
+      delete_success: "User deleted"
+      confirm: "You sure?"
   sessions:
     login: "Log in"
     invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
   err:
     the: "The form contains"
