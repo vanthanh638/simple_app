@@ -30,7 +30,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-
   hello: "Hello world"
   static_pages:
     title: "| Ruby on Rails Tutorial Sample App"
@@ -53,7 +52,7 @@ en:
       content1: "This is the home page for the "
       content2: " sample application."
       railstutorial: "Ruby on Rails Tutorial"
-      signup: "Sign up now!"
+      singup: "Sign up now!"
     about:
       about: "About"
       the: "The"
@@ -77,7 +76,4 @@ en:
       content: "Contact the Ruby on Rails Tutorial about the sample app at the"
       page: "contact page"
   users:
-    new:
-      signup: "Sign up"
-      title: "Signup"
-      content: "This wil be a signup page for new users."
+    new: "Users#new"
