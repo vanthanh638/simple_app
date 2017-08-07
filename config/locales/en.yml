@@ -39,6 +39,12 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      users: "Users"
+      account: "Account"
     footer:
       the: "The"
       by: "By"
@@ -79,5 +85,12 @@ en:
     new:
       signup: "Sign up"
       flash: "Welcome to the Sample App!"
-      user_nil: "Can not find user"
       create: "Create my account"
+      sigup_now: "Sign up now!"
+      user_new: "New user?"
+      user_nil: "Can not find user"
+  sessions:
+    login: "Log in"
+    invalid: "Invalid email/password combination"
+  err:
+    the: "The form contains"
